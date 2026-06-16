@@ -15,14 +15,6 @@ omnirec/
 └── requirements.txt
 ```
 
-## "search_engine kısmını nereye koyacağım?"
-`search_engine.py` zaten ayrı bir dosya olarak **app.py ile aynı klasörde** duruyor.
-`app.py` içindeki `from search_engine import FastSearchEngine` satırı, dosya aynı
-klasörde olduğu için VS Code'da hatasız çalışır. Ekstra bir şey yapmana gerek yok —
-sadece bu klasörü olduğu gibi VS Code'da aç.
-
-> Not: Colab'da tek hücrede `from search_engine import ...` yazıp aynı yere sınıfı da
-> koyduğun için hata veriyordu. Burada o kısım gerçek bir `.py` dosyasına ayrıldı.
 
 ## Kurulum
 1. Klasörü VS Code'da aç.
