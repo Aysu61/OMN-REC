@@ -1,0 +1,12 @@
+Bu klasöre ham CSV dosyalarını koyun:
+
+  tmdb_5000_movies.csv
+  tmdb_5000_credits.csv
+  Books.csv
+  Ratings.csv
+
+veri_hazirlama.py çalıştırıldığında temiz dosyalar da buraya yazılır:
+
+  tmdb_cleaned.csv
+  books_cleaned.csv
+  ratings_cleaned.csv
